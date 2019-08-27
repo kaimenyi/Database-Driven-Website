@@ -55,7 +55,7 @@
             <li class="nav-item"><a href="portal/portal.php" class="nav-link">Portal</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item active"><a href="sections.php" class="nav-link">Sections</a></li>
-            <li class="nav-item"><a href="department-updates.html" class="nav-link">Department Updates</a></li>
+            <li class="nav-item"><a href="department-updates.php" class="nav-link">Department Updates</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contacts</a></li>
             <li>     <?php  if (isset($_SESSION['username'])) : ?>
       <p><strong><?php echo $_SESSION['username']; ?></strong></p>
